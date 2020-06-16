@@ -18,7 +18,7 @@ textCell.id = "open-source-text"
 var heading = document.createElement("h1")
 heading.classList.add("small-title", "mega-margin", "open-source-title")
 // Normal text in heading
-var headingText = document.createTextNode("Nous contacter")
+var headingText = document.createTextNode("")
 
 heading.appendChild(headingText)
 textCell.appendChild(heading)
