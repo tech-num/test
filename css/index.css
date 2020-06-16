@@ -173,6 +173,8 @@ img.emoji-img {
  @media screen and (max-width: 800px) {	
 	 .videomedia {
 		width: 300px;
+		height: 100px;
+
 	}
 }
 
