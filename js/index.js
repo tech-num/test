@@ -18,17 +18,13 @@ textCell.id = "open-source-text"
 var heading = document.createElement("h1")
 heading.classList.add("small-title", "mega-margin", "open-source-title")
 // Normal text in heading
-var headingText = document.createTextNode("Follow Us ")
+var headingText = document.createTextNode("Nous ")
 
 var link = document.createElement("a")
 // Link text in heading
-var linkText = document.createTextNode("@TwitterOSS")
-link.appendChild(linkText)
-link.setAttribute("target", "_blank")
-link.setAttribute("href", "https://twitter.com/TwitterOSS")
+var linkText = document.createTextNode("Contacter")
 
 heading.appendChild(headingText)
-heading.appendChild(link)
 textCell.appendChild(heading)
 
 // Optional caption after title
